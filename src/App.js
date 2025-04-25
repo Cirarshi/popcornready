@@ -1,5 +1,5 @@
 import "./App.css";
-import { Children, useState } from "react";
+import { children, useState } from "react";
 
 const tempMovieData = [
   {
@@ -63,6 +63,17 @@ function App() {
         <Numresults movies={movies} />
       </Navbar>
       <Main>
+        {/*<Box element={<MovieList movies={movies} />} />
+        <Box
+          element={
+            <>
+              <WatchedSummary watched={watched} />{" "}
+              <WatchedMoviesList watched={watched} />{" "}
+            </>
+          }
+        />
+        */}
+
         <Box>
           <MovieList movies={movies} />
         </Box>
