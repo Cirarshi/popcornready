@@ -1,0 +1,15 @@
+# JavaScript and JSX files
+src/**/*.{js,jsx} linguist-language=JavaScript
+
+# TypeScript files
+src/**/*.{ts,tsx} linguist-language=TypeScript
+
+# CSS and SCSS
+src/**/*.{css,scss} linguist-language=CSS
+
+# HTML files
+public/**/*.html linguist-language=HTML
+
+# Ignore node_modules and build folders
+node_modules/** linguist-vendored
+build/** linguist-vendored
