@@ -1,5 +1,5 @@
 import "./App.css";
-import { children, useState } from "react";
+import { /*children,*/ useState } from "react";
 
 const tempMovieData = [
   {
